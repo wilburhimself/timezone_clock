@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.time {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3vw;
+  letter-spacing: 10px;
+  text-shadow:
+    0 0 2px #fff,
+    0 0 5px #fff,
+    0 0 3px #fff,
+    0 0 10px #88dfff,
+    0 0 25px #68ffc8,
+    0 0 30px #68ffc8,
+    0 0 40px #68ffc8,
+    0 0 60px #68ffc8;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
